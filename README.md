@@ -39,3 +39,17 @@ To use this, you will need a working tars, and the `fs:copy` transform from this
 ## More Information
 
 If you want more information on plugins and their development, check out [the main tars repository](https://github.com/OldUser101/tars) and read the "Plugins" section of the Readme.
+
+## Plugins
+
+### fs
+
+`fs` contains transforms for local file operations
+
+ - `fs:copy`: copy files from `src` to `dest`, supports wildcards
+
+### sh
+
+`sh` contains transforms for shell commands
+
+ - `sh:exec`: execute `cmd` in the default shell with the current working directory `cwd` or default.
