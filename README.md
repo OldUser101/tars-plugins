@@ -24,7 +24,7 @@ And then copy all the Python (.py) files to `~/.tars/plugins`:
 
 `cp /path/where/you/cloned/*.py ~/.tars/plugins/`
 
-You may need to run teh following if the plugins directory does not exist yet:
+You may need to run the following if the plugins directory does not exist yet:
 
 `mkdir -p ~/.tars/plugins`
 
@@ -52,4 +52,4 @@ If you want more information on plugins and their development, check out [the ma
 
 `sh` contains transforms for shell commands
 
- - `sh:exec`: execute `cmd` in the default shell with the current working directory `cwd` or default.
+ - `sh:exec`: execute `cmd` in the default shell with the working directory `cwd` or default.
