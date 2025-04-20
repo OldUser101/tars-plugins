@@ -47,6 +47,20 @@ If you want more information on plugins and their development, check out [the ma
 `fs` contains transforms for local file operations
 
  - `fs:copy`: copy files from `src` to `dest`, supports wildcards
+ - `fs:copy2`: copy files from `src` to `dest`, preserving metadata, supports wildcards
+ - `fs:copytree`: copies a complete directory tree from `src` to `dest`
+ - `fs:move`: moves files and directories from `src` to `dest`, supports wildcards
+ - `fs:remove`: removes a file at `target`
+ - `fs:rmtree`: removes the directory tree, including files, at `target`
+ - `fs:rmdir`: removes an empty directory at `target`
+ - `fs:mkdir`: creates an empty directory at `target`, including intermediate directories
+ - `fs:exists`: breaks if `target` doesn't exist
+ - `fs:isdir`: breaks if `target` is not a directory
+ - `fs:isfile`: breaks if `target` is not a file
+ - `fs:chmod`: changes permissions of `target`, to `mode`, a valid mode integer
+ - `fs:symlink`: creates a symlink with `target` as the target and `dest` as the link name
+ - `fs:rename`: renames a file or directory `src` to `dest`
+ - `fs:touch`: sets the timestamp on `target`, can also create files
 
 ### sh
 
